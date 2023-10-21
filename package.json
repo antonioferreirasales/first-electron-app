@@ -4,6 +4,7 @@
   "description": "First electron app",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/antonioferreirasales/first-electron-app/issues"
   },
-  "homepage": "https://github.com/antonioferreirasales/first-electron-app#readme"
+  "homepage": "https://github.com/antonioferreirasales/first-electron-app#readme",
+  "devDependencies": {
+    "electron": "^27.0.1"
+  }
 }
